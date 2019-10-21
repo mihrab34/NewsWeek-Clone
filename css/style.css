@@ -8,7 +8,7 @@
 
  body {
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     color: red;
+     color: #000;
  }
 
  .main-header {
@@ -33,4 +33,9 @@
  a {
      text-decoration: none;
      color: red;
+ }
+
+ .top-img {
+     width: 245px;
+     height: 170px;
  }
