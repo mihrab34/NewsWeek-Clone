@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
 </head>
 
 <body>
@@ -24,9 +24,12 @@
             <img src="./img/vect.svg" alt="">
           </a>
         </div>
-        <div class="col text-right justify-items-end link-container">
+        <div class="col text-right d-flex align-items-center justify-content-end link-container">
           <a href="#">SIGN IN</a>
-          <a href="#" class="btn">SUBSCRIBE</a>
+          <a href="#" class="sub-btn">
+            SUBSCRIBE
+            <img src="./img/arrow-right.svg" alt=">">
+          </a>
           <img src="img/menu-button.png" alt="menu-button" class="menu-btn" width="20" height="16">
         </div>
       </div>
@@ -37,14 +40,14 @@
           <li class="nav-item"><a href="#" class="nav-link">World</a></li>
           <li class="nav-item"><a href="#" class="nav-link">World</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Business</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Tech & Science</a></li>|
-          <li class="nav-item"><a href="#" class="nav-link">Culture</a></li>|
-          <li class="nav-item"><a href="#" class="nav-link">Newsgeek</a></li>|
-          <li class="nav-item"><a href="#" class="nav-link">Sports</a></li>|
-          <li class="nav-item"><a href="#" class="nav-link">Health</a></li>|
-          <li class="nav-item"><a href="#" class="nav-link">Opinion</a></li>|
-          <li class="nav-item"><a href="#" class="nav-link">Vantage</a></li>
-          <li class="nav-item">
+          <li class="nav-item"><a href="#" class="nav-link">Tech & Science</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Culture</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Newsgeek</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sports</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Health</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Opinion</a></li>
+          <li class="nav-item last"><a href="#" class="nav-link">Vantage</a></li>
+          <li class="nav-item search">
             <span>SEARCH</span>
             <img src="img/search.png" alt="search button">
           </li>
@@ -52,346 +55,348 @@
       </nav>
     </header>
     <div class="inner-container">
-      <main class="row page-top-section m-1">
-        <section class="col-12 col-md-5 col-lg order-2 order-md-1 feature">
-          <h4>Featured Stories</h4>
+      <main class="row my-3 mx-1 top-section">
+        <section class="col-12 order-xs-2 order-sm-2 col-md-5 col-lg feature">
+          <h4 class="block-title">FEATURED STORIES</h4>
           <article>
-            <a href="#" title="syria-war-us-military-vehicles" class="card-img"><img
-                src="https://d.newsweek.com/en/full/1536885/syria-war-us-military-vehicles.webp?w=397&h=265&q=90&f=9e75626174376ad2966a89efeb0b7b29"
-                alt="Syria Troop" width="430"></a>
-            <a href="#" class="card text-center p-1" id="world">WORLD</a>
-            <h3><a href="#">Trump Ignored Syria Exit Options That Could Have Kept Russia at Bay</a></h3>
-            <p>Newsweek has learned that President Donald Trump was given alternative Syria withdrawal plans
-              involving U.N. peacemakers and diplomatic pressure, but opted instead for a speedy exit.
+            <div class="article-banner">
+              <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                <img
+                  src="https://d.newsweek.com/en/full/1536885/syria-war-us-military-vehicles.webp?w=397&h=265&q=90&f=9e75626174376ad2966a89efeb0b7b29"
+                  alt="Syria Troop">
+              </a>
+              <a href="#" class="card text-center py-1 px-3 news-tag">WORLD</a>
+            </div>
+            <h3 class="news-article-title my-1"><a href="#">Trump Ignored Syria Exit Options That Could Have Kept Russia
+                at Bay</a>
+            </h3>
+            <p class="news-headline">Newsweek has learned that President Donald Trump was given alternative Syria
+              withdrawal plans involving U.N. peacemakers and diplomatic pressure, but opted instead for a speedy exit.
             </p>
           </article>
           <article>
-            <a href="#" title="Donald trump trade war Manufacturing Sector" class="card-img"><img
-                alt="donald-trump-trade-war-manufacturing-sector"
-                src="https://d.newsweek.com/en/full/1536913/donald-trump-trade-war-manufacturing-sector.webp?w=397&h=265&q=90&f=df21e1b095bca1d244269eb933574649"
-                width="430">
-              <a href="#" class="card text-center p-1" id="politics">POLITICS</a>
-              <h3><a href="#">Trump's Trade War Hurts Manufacturers. Some Say Fighting China's Worth It</a></h3>
-              <p>The Trump administration is waging trade wars against China,
-                the European Union and others, and the tariffs are costing many American manufacturers money.
-              </p>
+            <div class="article-banner">
+              <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                <img
+                  src="https://d.newsweek.com/en/full/1536885/syria-war-us-military-vehicles.webp?w=397&h=265&q=90&f=9e75626174376ad2966a89efeb0b7b29"
+                  alt="Syria Troop">
+              </a>
+              <a href="#" class="card text-center py-1 px-3 news-tag">WORLD</a>
+            </div>
+            <h3 class="news-article-title my-1"><a href="#">Trump Ignored Syria Exit Options That Could Have Kept Russia
+                at
+                Bay</a>
+            </h3>
+            <p class="news-headline">Newsweek has learned that President Donald Trump was given alternative Syria
+              withdrawal plans involving U.N. peacemakers and diplomatic pressure, but opted instead for a speedy exit.
+            </p>
           </article>
           <article>
-            <a href="#" title="Immigration Protest" class="card-img"><img alt="immigration-protest"
-                src="https://d.newsweek.com/en/full/1537478/immigration-protest.webp?w=397&h=265&q=90&f=0db32cc0282e1d2d98e247a6f8800426"
-                width="430">
-              <a href="#" class="card text-center p-1" id="us">U.S.</a>
-              <h3><a href="#">Most Republicans Believe Immigrants Make U.S. Better Place to Live: Poll</a></h3>
-              <p>Sixty percent of Republicans in California said they believe immigrants make the U.S. better.</p>
+            <div class="article-banner">
+              <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                <img
+                  src="https://d.newsweek.com/en/full/1536885/syria-war-us-military-vehicles.webp?w=397&h=265&q=90&f=9e75626174376ad2966a89efeb0b7b29"
+                  alt="Syria Troop">
+              </a>
+              <a href="#" class="card text-center py-1 px-3 news-tag">WORLD</a>
+            </div>
+            <h3 class="news-article-title my-1"><a href="#">Trump Ignored Syria Exit Options That Could Have Kept Russia
+                at
+                Bay</a>
+            </h3>
+            <p class="news-headline">Newsweek has learned that President Donald Trump was given alternative Syria
+              withdrawal plans involving U.N. peacemakers and diplomatic pressure, but opted instead for a speedy exit.
+            </p>
           </article>
           <article>
-            <a href="#" title="Best Customer Service 2020" class="card-img"><img alt="best-customer-service-2020"
-                src="https://d.newsweek.com/en/full/1536550/best-customer-service-2020.webp?w=397&h=265&q=90&f=bc42d841c5c5ea9117b100b8a70b5410"
-                width="430">
-              <a href="#" class="card text-center p-2" id="survey">SURVEY</a>
-              <h3><a href="#">Best Customer Service 2020</a></h3>
-              <p>For the second year in a row, we worked with Statista to collect and analyze data across 160 retail
-                categories.</p>
+            <div class="article-banner">
+              <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                <img
+                  src="https://d.newsweek.com/en/full/1536885/syria-war-us-military-vehicles.webp?w=397&h=265&q=90&f=9e75626174376ad2966a89efeb0b7b29"
+                  alt="Syria Troop">
+              </a>
+              <a href="#" class="card text-center py-1 px-3 news-tag">WORLD</a>
+            </div>
+            <h3 class="news-article-title my-1"><a href="#">Trump Ignored Syria Exit Options That Could Have Kept Russia
+                at Bay</a>
+            </h3>
+            <p class="news-headline">Newsweek has learned that President Donald Trump was given alternative Syria
+              withdrawal plans involving U.N. peacemakers and diplomatic pressure, but opted instead for a speedy exit.
+            </p>
+          </article>
+          <article>
+            <div class="article-banner">
+              <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                <img
+                  src="https://d.newsweek.com/en/full/1536885/syria-war-us-military-vehicles.webp?w=397&h=265&q=90&f=9e75626174376ad2966a89efeb0b7b29"
+                  alt="Syria Troop">
+              </a>
+              <a href="#" class="card text-center py-1 px-3 news-tag">WORLD</a>
+            </div>
+            <h3 class="news-article-title my-1"><a href="#">Trump Ignored Syria Exit Options That Could Have Kept Russia
+                at
+                Bay</a>
+            </h3>
+            <p class="news-headline">Newsweek has learned that President Donald Trump was given alternative Syria
+              withdrawal plans involving U.N. peacemakers and diplomatic pressure, but opted instead for a speedy exit.
+            </p>
           </article>
         </section>
-
-        <section class="col-12 col-md-7 col-lg-5 order-1 order-md-2 top-story">
-          <h4>Top Stories</h4>
+        <section class="col-12 order-xs-1 order-sm-1 col-md-7 col-lg-6 top-story">
+          <h4 class="block-title">TOP STORY</h4>
           <article>
-            <a href="#" title="Trump" class="card-img"><img alt="trump" id="trump"
-                src="https://d.newsweek.com/en/full/1537804/trump.jpg?w=591&h=364&f=3dd67df8e39464e4d33bd96e598c539c"></a>
-            <a href="#" class="card text-center p-1" id="top-us">U.S.</a>
-            <h3><a href="#">Impeachment a 'Mortal Threat' to Trump: Steve Bannon</a></h3>
-            <p>The former Trump adviser tells the New York Post that the White House should set up a 24-7 impeachment
-              squad to deal with the crisis.</p>
-          </article>
-          <article class="bg-light">
-            <h6>CULTURE & TRAVEL</h6>
-            <div class="culture-travel row">
-              <div class="col-12 col-md-6">
-                <a href="#" title="Prince William and Kate Middleton in Pakistan"><img
-                    alt="prince-william-kate-middleton-pakistan"
-                    src="https://d.newsweek.com/en/full/1536715/prince-william-kate-middleton-pakistan.webp?w=397&h=265&f=6def83dd5619f9b759b6aca8ef301692"
-                    class="top-img"></a>
-                <h3>Prince William and Kate Middleton Pakistan Tour—Royal Highlights</h3>
-                <p>As the royal couple explores Pakistan, here are 7 ways to uncover the fascinating quarters of this
-                  largely undiscovered country.</p>
-                <p><a href="#">Pakistan</a></p>
-              </div>
-
-              <div class="col-12 col-md-6">
-                <a href="#" title="4 Mosua women"><img alt="4-mosuo-women"
-                    src="https://d.newsweek.com/en/full/1379038/4-mosuo-women.webp?w=397&h=265&f=92b9d5eef7ade1333a6d83d15966581e"
-                    class="top-img"></a>
-                <h3>Where Women Still Rule: Matrilineal Tribes Around the World</h3>
-                <p>From Wonder Woman's Amazons to Wakanda's warriors, the world is enthralled with societies where women
-                  take charge. Here are the last remaining women-run tribes in the world.</p>
-                <p><a href="#">Women</a></p>
-              </div>
-
-              <div class="col-12 col-md-6">
-                <a href="#" title="Halloween Parade New York City"><img alt="halloween-parade-new-york-city"
-                    src="https://d.newsweek.com/en/full/1532631/halloween-parade-new-york-city.webp?w=397&h=265&f=9e73777dc363f1cd8e1e3989ff37f789"
-                    class="top-img"></a>
-                <h3>The Best Halloween Events Happening Across the U.S.</h3>
-                <p>From parades to haunted hayrides and even a coffin challenge, here are the most frightening Halloween
-                  events near you.</p>
-                <p><a href="#">Halloween</a></p>
-              </div>
-              <div class="col-12 col-md-6">
-                <a href="#" title="bermuda crystal; caves"><img alt="bermuda-crystal-cave"
-                    src="https://d.newsweek.com/en/full/1520566/bermuda-crystal-cave.webp?w=397&h=265&f=01ed75bc7e4384a50989e86c258e2021"
-                    class="top-img"></a>
-                <h3>Underground: The Most Beautiful Caves in the World</h3>
-                <p>Caves have an almost primal appeal—they hold the secrets to our past and are the last vestige of
-                  exploration.</p>
-                <p><a href="#">Caves</a></p>
-              </div>
+            <div class="article-banner">
+              <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                <img
+                  src="https://d.newsweek.com/en/full/1537804/trump.jpg?w=591&h=364&f=3dd67df8e39464e4d33bd96e598c539c"
+                  alt="">
+              </a>
+              <a href="#" class="card text-center py-1 px-3 news-tag">U.S.</a>
             </div>
+            <h3 class="news-article-title my-1"><a href="#">Impeachment a 'Mortal Threat' to Trump: Steve Bannon</a>
+            </h3>
+            <p class="news-headline">The former Trump adviser tells the New York Post that the White House should set up
+              a 24-7 impeachment squad to deal with the crisis.</p>
           </article>
+          <div class="container-fluid">
+            <div class="row bg-light mt-3 culture-travel">
+              <h4 class="block-title py-3 px-3 col-12">Culture & Travel</h4>
+              <section class="col-md-6">
+                <article>
+                  <div class="article-banner">
+                    <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                      <img
+                        src="https://d.newsweek.com/en/full/1540567/town-dusk.webp?w=397&h=265&f=eef67dddf587044232785db7e202c649"
+                        alt="">
+                    </a>
+                  </div>
+                  <h3 class="news-article-title my-1"><a href="#">What the History of Witches Reveals About Our Own
+                      Fears</a>
+                  </h3>
+                  <p class="news-headline">Our fascination with the witch throughout the ages tells us more about
+                    ourselves than the history of witchcraft.</p>
+                  <a href="#" class="content-tag p-1">witches</a>
+                </article>
+                <article>
+                  <div class="article-banner">
+                    <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                      <img
+                        src="https://d.newsweek.com/en/full/1540486/cul-sculptures-01-524418368.webp?w=397&h=265&l=48&t=56&f=08110478ae81b18e9eb9db71bd0a6314"
+                        alt="">
+                    </a>
+                  </div>
+                  <h3 class="news-article-title my-1"><a href="#">9 Larger-Than-Life Sculpture Parks Around the
+                      World</a>
+                  </h3>
+                  <p class="news-headline">Across the globe, sculpture parks present imposing works (and even ideas)
+                    that are too large
+                    to be contained within four
+                    walls.</p>
+                  <a href="#" class="content-tag p-1">Art</a>
+                </article>
+              </section>
+              <section class="col-md-6">
+                <article>
+                  <div class="article-banner">
+                    <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                      <img
+                        src="https://d.newsweek.com/en/full/1540486/cul-sculptures-01-524418368.webp?w=397&h=265&l=48&t=56&f=08110478ae81b18e9eb9db71bd0a6314"
+                        alt="">
+                    </a>
+                  </div>
+                  <h3 class="news-article-title my-1"><a href="#">9 Larger-Than-Life Sculpture Parks Around the
+                      World</a>
+                  </h3>
+                  <p class="news-headline">Across the globe, sculpture parks present imposing works (and even ideas)
+                    that are too large to be contained within four
+                    walls.</p>
+                  <a href="#" class="content-tag p-1">Art</a>
+                </article>
+                <article>
+                  <div class="article-banner">
+                    <a href="#" title="syria-war-us-military-vehicles" class="card-img">
+                      <img
+                        src="https://d.newsweek.com/en/full/1540567/town-dusk.webp?w=397&h=265&f=eef67dddf587044232785db7e202c649"
+                        alt="">
+                    </a>
+                  </div>
+                  <h3 class="news-article-title my-1"><a href="#">What the History of Witches Reveals About Our Own
+                      Fears</a>
+                  </h3>
+                  <p class="news-headline">Our fascination with the witch throughout the ages tells us more about
+                    ourselves than the
+                    history of witchcraft.</p>
+                  <a href="#" class="content-tag p-1">witches</a>
+                </article>
+              </section>
+            </div>
+          </div>
 
-          <article class="mt-3">
-            <h6 id="more">MORE STORIES</h6>
-            <hr>
-            <div class="stories d-flex ">
-              <div class="more-stories md-mt-2 mr-3 md-mb-2 flex-item"><a href="#"
-                  title="Turkey Russia Sdf Syria Crushed Dmitry Peskov"><img
-                    alt="turkey-russia-sdf-syria-crushed-dmitry-peskov"
-                    src="https://d.newsweek.com/en/full/1539081/turkey-russia-sdf-syria-crushed-dmitry-peskov.webp?w=135&h=90&f=01f8bba623af836d8206f3e88f662389">
-              </div>
-              <div class="flex-item">
-                <a href="#">
-                  <h6>Russia: Turkey Will 'Crush' Kurds If They Do Not Withdraw From Syria Fight</h6>
+          <div class="container-fluid">
+            <section>
+              <h6>More Stories</h6>
+              <hr>
+              <!-- <div class="d-flex align-items-center">
+                <a href="#" class="flex-item mr-3" title="Roger Stone">
+                  <img src="https://d.newsweek.com/en/full/1542563/roger-stone-trial-begins.webp?w=135&h=90&f=bfa74f7ae3baa94ba22d7dfaf6395af4" alt="#">
                 </a>
-                <p>A deal agreed between Russia and Turkey on Tuesday handed Kurdish-led forces a 150-hour ultimatum to
-                  withdraw from an 18-mile zone along the Turkish border.</p>
-              </div>
-            </div>
+                <div class="flex-item">
+                  <a href="#">Roger Stone Trial Begins in Washington: What It Means for Trump</a>
+                  <p>If convicted, the longtime associate of President Donald Trump could face a maximum sentence of 20 years in prison.</p>
+                </div>
+              </div> -->
+              <div class="stories pt-2 d-flex">
+                  <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
+                        src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
+                        class="latest-img"></a></div>
+                  <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
+                      Halloween</a></h6>
+                </div>
+                <div class="stories pt-2 d-flex">
+                    <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
+                          src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
+                          class="latest-img"></a></div>
+                    <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
+                        Halloween</a></h6>
+                  </div>
+                  <div class="stories pt-2 d-flex">
+                      <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
+                            src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
+                            class="latest-img"></a></div>
+                      <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
+                          Halloween</a></h6>
+                    </div>
+                    <div class="stories pt-2 d-flex">
+                        <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
+                              src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
+                              class="latest-img"></a></div>
+                        <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
+                            Halloween</a></h6>
+                      </div>
+                      <div class="stories pt-2 d-flex">
+                          <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
+                                src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
+                                class="latest-img"></a></div>
+                          <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
+                              Halloween</a></h6>
+                        </div>
+                        <div class="stories pt-2 d-flex">
+                            <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
+                                  src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
+                                  class="latest-img"></a></div>
+                            <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
+                                Halloween</a></h6>
+                          </div>
+            </section>
 
-            <div class="stories pt-3 d-flex">
-              <div class="more-stories mr-3 md-mb-2 flex-item"><a href="#"
-                  title="Bill Taylor Testimony Ukraine Donald Trump"><img
-                    alt="bill-taylor-testimony-ukraine-donald-trump"
-                    src="https://d.newsweek.com/en/full/1539022/bill-taylor-testimony-ukraine-donald-trump.webp?w=135&h=90&f=0c5360f844d78a7f01ef64520680c718">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">Taylor Testimony Marks Trump's Worst Day in Office: Reagan Speechwriter</a></h6>
-                <p>John Podhoretz said Taylor's 15-page written statement detailed "absolutely" impeachable conduct by
-                  the president.</p>
-              </div>
-            </div>
-
-            <div class="stories pt-3 d-flex">
-              <div class="more-stories mr-3 md-mb-2 flex-item"><a href="#" title="Mark Zuckerberg"><img
-                    alt="mark-zuckerberg"
-                    src="https://d.newsweek.com/en/full/1378097/mark-zuckerberg.webp?w=135&h=90&f=d03091a3176ed552a5ea8863aa04fe49">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">How to Watch Zuckerberg's Testimony on Libra Cryptocurrency</a></h6>
-                <p>The hearing will be available to watch on several broadcast platforms—including YouTube, C-Span3 and
-                  the House Financial Services Committee website at 10 a.m. ET.</p>
-              </div>
-            </div>
-
-            <div class="stories pt-3 d-flex">
-              <div class="more-stories mr-3 md-mb-2 flex-item"><a href="#" title="Trump border_22oct2019"><img
-                    alt="trumpborder-22oct2019"
-                    src="https://d.newsweek.com/en/full/1538806/trumpborder-22oct2019.webp?w=135&h=90&f=663a2d1234e7d5ba793bbecf2970e089">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">Military Allowed to Shoot at Moving Vehicles at U.S.-Mexico Ports of Entry</a></h6>
-                <p>"The trend for decades with respect to law enforcement agencies is a ban against officers shooting at
-                  a moving vehicle because it is likely to be ineffective and carries a high risk of lethal harm,
-                  including to bystanders," Hina Shamsi, the director of the National Security Project at the ACLU said.
-                </p>
-              </div>
-            </div>
-
-            <div class="stories pt-3 d-flex">
-              <div class="more-stories mr-3 md-mb-2 flex-item"><a href="#"
-                  title="Aerial View of Mauis Kapalua Coast"><img alt="aerial-view-mauis-kapalua-coast"
-                    src="https://d.newsweek.com/en/full/1539070/aerial-view-mauis-kapalua-coast.webp?w=135&h=90&f=8f7691d3571ee9c4e7f3b9504a24cbc8">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">Maui Brush Fire Update: Blaze Rapidly Scorches Nearly 1,000 Acres of Hawaii</a></h6>
-                <p>A fast-moving brush fire in West Maui has spread across the Kapalua area, leading to the evacuation
-                  of several homes and road closures.</p>
-              </div>
-            </div>
-
-            <div class="stories pt-3 d-flex">
-              <div class="more-stories mr-3 md-mb-2 flex-item"><a href="#" title="Mitch Mcconnell"><img
-                    alt="mitch-mcconnell"
-                    src="https://d.newsweek.com/en/full/1538948/mitch-mcconnell.webp?w=135&h=90&f=924b727f170c139b7973928e08746ab6">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">McConnell Suggests Trump Lied, Claims They Never Spoke About Ukraine Call</a></h6>
-                <p>"I don't recall any conversations with the president about that phone call," the Republican Senate
-                  majority leader said.</p>
-              </div>
-            </div>
-
-            <div class="stories pt-3 d-flex">
-              <div class="more-stories mr-3 md-mb-2 flex-item"><a href="#"
-                  title="SDF Kurds US Admits ISIS Fighters Escaped"><img alt="sdf-kurds-us-admits-isis-fighters-escaped"
-                    src="https://d.newsweek.com/en/full/1539066/sdf-kurds-us-admits-isis-fighters-escaped.webp?w=135&h=90&f=e43887bf52e508317fa8933c4c736da8">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">U.S. Syria Envoy Admits 'Dozens' of ISIS Fighters Have Escaped Detention</a></h6>
-                <p>James Franklin Jeffrey told the Senate Foreign Relations Committee on Tuesday that the government
-                  does not know exactly how many Islamic State militants have been freed.</p>
-              </div>
-            </div>
-
-            <div class="stories pt-3 d-flex">
-              <div class="more-stories mr-3 md-mb-2 flex-item"><a href="#"
-                  title="Federal Drug Trial Delayed Settlements"><img alt="federal-drug-trial-delayed-settlements"
-                    src="https://d.newsweek.com/en/full/1539156/federal-drug-trial-delayed-settlements.webp?w=135&h=90&f=7cbd5639c7e7ece85033cb9ca07654d5">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">Drug Companies Aren't Apologizing for the Opioid Crisis, Settlements or Not</a></h6>
-                <p>In nearly a dozen cases reviewed by Newsweek, drug firms that flooded the U.S. with deadly
-                  painkillers over the years have clauses in their settlements that absolve them from saying they did
-                  anything wrong.</p>
-              </div>
-            </div>
-
-            <div class="stories pt-3 d-flex">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="hillary clinton"><img alt="hillary-clinton"
-                    src="https://d.newsweek.com/en/full/1539007/hillary-clinton.webp?w=135&h=90&f=b598997262f64a408355f292f74df7ef">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">Tulsi Gabbard Tells Hillary Clinton to 'Step Down From Your Throne'</a></h6>
-                <p>Gabbard escalated her war of words with Clinton in a Twitter video, telling her to "step down from
-                  your throne."</p>
-              </div>
-            </div>
-
-            <div class="stories pt-3 d-flex" id="crimes">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="police car"><img alt="police-car"
-                    src="https://d.newsweek.com/en/full/1539154/police-car.webp?w=135&h=90&f=e3dcad088188a10d7cf243e2b80998b6">
-              </div>
-              <div class="flex-item">
-                <h6><a href="#">Violent Crimes in U.S. Drop When Pollen Count is High, Scientists Discover</a></h6>
-                <p>Researchers looked at the net cost of criminal activity that comes with a common health shock—in this
-                  case, seasonal allergies, which affects up to one in five Americans.</p>
-              </div>
-            </div>
-          </article>
+          </div>   
         </section>
 
-        <section class="col-12 col-lg order-3 order-md-3 opinion">
-          <h4>Opinions</h4>
-          <article>
-            <div class="stories pt-2">
-              <div class="more-stories mr-3 mb-1"><a href="#" title="Anthony Harwood"><img alt="anthony-harwood"
-                    src="https://d.newsweek.com/en/full/106454/anthony-harwood.webp?w=63&h=63&f=586f7b7e3b6616431c41feae6fbad599">
-              </div>
-              <h6><a href="#">A Year After Khashoggi, West Resumes Business as Usual with Saudi Arabia</a></h6>
-              <p>BY ANTHONY HARWOOD</p>
+        <section class="col-12 order-xs-3 order-sm-3 col-md col-lg opinion">
+          <h4 class="block-title">Opinion</h4>
+          <div class="opinion-item d-flex align-items-center mb-2 pb-2">
+            <a href="#">
+              <img
+                src="https://d.newsweek.com/en/full/1542486/mary-anne-franks.webp?w=63&h=63&f=a36d9a84a8b4074dca6a76e7eb9943fd"
+                alt="" class="mr-2">
+            </a>
+            <div class="opinion-content pt-2">
+              <a href="#" class="opinion-text">Congress Failed Katie Hill</a>
+              <p class="opinion-by">BY MARY ANNE FRANKS</p>
             </div>
-            <div class="stories pt-2">
-              <div class="more-stories mr-3 mb-1"><a href="#" title="Miriam Sapiro"><img alt="miriam-sapiro"
-                    src="https://d.newsweek.com/en/full/1539898/miriam-sapiro.webp?w=63&h=63&f=0c27ac0afa022fc6fe30570699d8e4af">
-              </div>
-              <h6><a href="#">Trump's North America Trade Deal Will Give U.S. Companies Confidence in Uncertain
-                  Times</a></h6>
-              <p>BY MIRIAM SAPIRO</p>
+          </div>
+          <div class="opinion-item d-flex align-items-center mb-3 pb-3">
+            <a href="#">
+              <img src="https://d.newsweek.com/en/full/1542486/mary-anne-franks.webp?w=63&h=63&f=a36d9a84a8b4074dca6a76e7eb9943fd"
+                alt="" class="mr-2">
+            </a>
+            <div class="opinion-content pt-2">
+              <a href="#" class="opinion-text">Congress Failed Katie Hill</a>
+              <p class="opinion-by">BY MARY ANNE FRANKS</p>
             </div>
-            <div class="stories pt-2">
-              <div class="more-stories mr-3 mb-1"><a href="#" title="Ken Soferr"><img alt="ken-soferr"
-                    src="https://d.newsweek.com/en/full/1539956/ken-soferr.webp?w=63&h=63&l=52&t=53&f=7647c68cffff76d478798e4033e500df">
-              </div>
-              <h6><a href="#">Has the War in Syria Finally Killed Off Accountability for War Crimes?</a></h6>
-              <p>BY KEN SOFERR</p>
+          </div>
+          <div class="opinion-item d-flex align-items-center mb-3 pb-3">
+            <a href="#">
+              <img src="https://d.newsweek.com/en/full/1542486/mary-anne-franks.webp?w=63&h=63&f=a36d9a84a8b4074dca6a76e7eb9943fd"
+                alt="" class="mr-2">
+            </a>
+            <div class="opinion-content pt-2">
+              <a href="#" class="opinion-text">Congress Failed Katie Hill</a>
+              <p class="opinion-by">BY MARY ANNE FRANKS</p>
             </div>
-            <div class="stories pt-2">
-              <div class="more-stories mr-3 mb-1"><a href="#" title="Jack Markell"><img alt="jack-markell"
-                    src="https://d.newsweek.com/en/full/1540008/jack-markell.webp?w=63&h=63&f=4a2790d242ac094ac3ba063513a49a67">
-              </div>
-              <h6><a href="#">Delaware's Stunning Abortion Rate Drop Had Nothing to Do With Bans</a></h6>
-              <p>BY JACK MARKELL</p>
+          </div>
+          <div class="opinion-item d-flex align-items-center mb-3 pb-3">
+            <a href="#">
+              <img src="https://d.newsweek.com/en/full/1542486/mary-anne-franks.webp?w=63&h=63&f=a36d9a84a8b4074dca6a76e7eb9943fd"
+                alt="" class="mr-2">
+            </a>
+            <div class="opinion-content pt-2">
+              <a href="#" class="opinion-text">Congress Failed Katie Hill</a>
+              <p class="opinion-by">BY MARY ANNE FRANKS</p>
             </div>
-            <div class="stories pt-2">
-              <div class="more-stories mr-3 mb-1"><a href="#" title="Sam Hill"><img alt="sam-hill"
-                    src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687">
-              </div>
-              <h6><a href="#">Trump Is the Most Principled President in Over a Century</a></h6>
-              <p>BY SAM HILL</p>
-            </div>
-            <div class="stories pt-2">
-              <div class="more-stories mr-3 mb-1"><a href="#" title="Marielena Hincapie"><img alt="marielena-hincapie"
-                    src="https://d.newsweek.com/en/full/1539618/marielena-hincapie.webp?w=63&h=63&f=d9eb12d5b0dd9dd7e391ec30c50758e2">
-              </div>
-              <h6><a href="#">The Public Charge Rule Is Already Depriving Immigrant Families of Life-Saving Food and
-                  Health Care</a></h6>
-              <p>BY MARIELENA HINCAPIÉ</p>
-            </div>
-          </article>
+          </div>
           <article>
             <h4>LATEST NEWS</h4>
-            <div class="stories pt-2 d-flex">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
-                    src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
-                    class="latest-img"></a></div>
-              <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
-                  Halloween</a></h6>
-            </div>
-            <div class="stories pt-2 d-flex">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="First Wives Club Pumpkin"><img alt=""
-                    src="https://d.newsweek.com/en/full/1539646/first-wives-club-pumpkin.webp?w=397&h=265&f=4a9ecc91f6b122866651645aed974cf6"
-                    class="latest-img"></a></div>
-              <h6 class="flex-item"><a href="#">Meet the Master Carver Who Turns Pumpkins Into Portraits</a></h6>
-            </div>
-            <div class="stories pt-2 d-flex">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="cdc cant determine cause vaping deaths"><img
-                    alt=""
-                    src="https://d.newsweek.com/en/full/1541737/cdc-cant-determine-cause-vaping-deaths.webp?w=397&h=265&f=d59683ca5725b69c9b1916bb4e418506"
-                    class="latest-img"></a></div>
-              <h6 class="flex-item"><a href="#">37 Vaping Related Deaths Confirmed, Nearly 2,000 Report Injuries:
-                  CDC</a></h6>
-            </div>
-            <div class="stories pt-2 d-flex">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="PETA"><img alt=""
-                    src="https://d.newsweek.com/en/full/1541721/peta.webp?w=397&h=265&f=3860a3dd05fdfe13e36849b85a3e1bfc"
-                    class="latest-img"></a></div>
-              <h6 class="flex-item"><a href="#">PETA Reacts to China's Use of Pigs and Dogs as Crash Test Dummies</a>
-              </h6>
-            </div>
-            <div class="stories pt-2 d-flex">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="keystone xl"><img alt=""
-                    src="https://d.newsweek.com/en/full/1541720/keystone-xl.webp?w=397&h=265&f=8f50eeafe467bc153bec18ff7001a615"
-                    class="latest-img"></a></div>
-              <h6 class="flex-item"><a href="#">Keystone Pipeline Spills 383,000 Gallons of Oil in North Dakota</a></h6>
-            </div>
-            <div class="stories pt-2 d-flex">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="PFAS"><img alt=""
-                    src="https://d.newsweek.com/en/full/1541722/pfas.webp?w=397&h=265&f=33d3ed87a6707a228a7726148adecc75"
-                    class="latest-img"></a></div>
-              <h6 class="flex-item"><a href="#">'Forever Chemicals' Found in Water Sources of 800,000 Kentucky
-                  Residents</a></h6>
-            </div>
-            <div class="stories pt-2 d-flex" id="pfas">
-              <div class="more-stories mr-3 flex-item"><a href="#" title="PFAS"><img alt=""
-                    src="https://d.newsweek.com/en/full/1541722/pfas.webp?w=397&h=265&f=33d3ed87a6707a228a7726148adecc75"
-                    class="latest-img"></a></div>
-              <h6 class="flex-item"><a href="#">'Forever Chemicals' Found in Water Sources of 800,000 Kentucky
-                  Residents</a></h6>
-            </div>
-
-            <div class="container newsletter mt-4">
-              <div class="clearfix pt-4">
-                <img src="img/icon.png" class="float-left mr-2" alt="">
-                <span>sign up for our newsletter</span>
+              <div class="stories pt-2 d-flex">
+                <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
+                      src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
+                      class="latest-img"></a></div>
+                <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
+                    Halloween</a></h6>
               </div>
-              <button class="btn">sign up</button><br>
-              <a href="#">Update your preferences</a>
-            </div>
+              <div class="stories pt-2 d-flex">
+                  <div class="more-stories mr-3 flex-item"><a href="#" title="Lollipops in a jar"><img alt="lollipops-jar"
+                        src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996"
+                        class="latest-img"></a></div>
+                  <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on
+                      Halloween</a></h6>
+                </div>
+              <div class="stories pt-2 d-flex">
+                <div class="more-stories mr-3 flex-item"><a href="#" title="cdc cant determine cause vaping deaths"><img
+                      alt=""
+                      src="https://d.newsweek.com/en/full/1541737/cdc-cant-determine-cause-vaping-deaths.webp?w=397&h=265&f=d59683ca5725b69c9b1916bb4e418506"
+                      class="latest-img"></a></div>
+                <h6 class="flex-item"><a href="#">37 Vaping Related Deaths Confirmed, Nearly 2,000 Report Injuries:
+                    CDC</a></h6>
+              </div>
+              <div class="stories pt-2 d-flex">
+                <div class="more-stories mr-3 flex-item"><a href="#" title="PETA"><img alt=""
+                      src="https://d.newsweek.com/en/full/1541721/peta.webp?w=397&h=265&f=3860a3dd05fdfe13e36849b85a3e1bfc"
+                      class="latest-img"></a></div>
+                <h6 class="flex-item"><a href="#">PETA Reacts to China's Use of Pigs and Dogs as Crash Test Dummies</a>
+                </h6>
+              </div>
+              <div class="stories pt-2 d-flex">
+                <div class="more-stories mr-3 flex-item">
+                  <a href="#" title="Lollipops in a jar"><img alt="lollipops-jar" src="https://d.newsweek.com/en/full/1541712/lollipops-jar.webp?w=397&h=265&f=985f24bbe760adb6e83fc34cb950d996" class="latest-img"></a>
+                </div>
+                <h6 class="flex-item"><a href="#">Woman Claims to Be Handing Out Chicken Pox-Infected Lollipops on Halloween</a></h6>
+              </div>
+              <div class="stories pt-2 d-flex">
+                <div class="more-stories mr-3 flex-item">
+                  <a href="#" title="PFAS"><img alt="" src="https://d.newsweek.com/en/full/1541722/pfas.webp?w=397&h=265&f=33d3ed87a6707a228a7726148adecc75" class="latest-img"></a>
+                </div>
+                <h6 class="flex-item"><a href="#">'Forever Chemicals' Found in Water Sources of 800,000 Kentucky Residents</a></h6>
+              </div>
+              <div class="stories pt-2 d-flex" id="pfas">
+                <div class="more-stories mr-3 flex-item">
+                  <a href="#" title="PFAS"><img alt="" src="https://d.newsweek.com/en/full/1541722/pfas.webp?w=397&h=265&f=33d3ed87a6707a228a7726148adecc75" class="latest-img"></a>
+                </div>
+                <h6 class="flex-item"><a href="#">'Forever Chemicals' Found in Water Sources of 800,000 Kentucky Residents</a></h6>
+              </div>
+  
+              <div class="container newsletter mt-4">
+                <div class="clearfix pt-4">
+                  <img src="img/icon.png" class="float-left mr-2" alt="">
+                  <span>sign up for our newsletter</span>
+                </div>
+                <button class="btn">sign up</button><br>
+                <a href="#">Update your preferences</a>
+              </div>
+          </article>
+        </section>
+      </main>
     </div>
-  </div>
-  </article>
-  </section>
-
   <section class="magazine">
     <div class="row">
       <div class="col-12 col-md-3">
