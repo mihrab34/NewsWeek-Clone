@@ -9,7 +9,7 @@
 .outer-container {
   padding: 0;
   margin: 0;
- }
+}
 
 a {
   text-decoration: none;
@@ -38,6 +38,11 @@ a:hover {
 
 .nav-item img {
   width: 1rem;
+}
+
+.subscribe-box img {
+  float: left;
+  margin-right: 20px;
 }
 
 a.sub-btn {
@@ -132,6 +137,11 @@ article {
   font-size: 20px;
 }
 
+.subscribe-box a {
+  font-size: 1.3rem;
+  line-height: 35px;
+}
+
 .opinion-content a:hover {
   color: #f72210;
 }
@@ -146,8 +156,13 @@ article {
 }
 
 .headline a:hover {
-   text-decoration: #f72210 underline;
-  }
+  text-decoration: #f72210 underline;
+}
+
+.subscribe-box a:hover {
+  text-decoration-color: #f72210;
+  color: #000;
+}
 
 .culture-travel article .news-article-title a {
   font-weight: 300;
@@ -215,6 +230,12 @@ article {
   font-size: 1.2rem;
 }
 
+.subscribe span {
+  text-transform: uppercase;
+  color: #f72210;
+  font-weight: bold;
+}
+
 .category span:nth-child(1) {
   background: #f72210;
   color: #fff;
@@ -232,36 +253,15 @@ article {
   margin-top: 20px;
 }
 
-.subscribe span {
-  text-transform: uppercase;
-  color: #f72210;
-  font-weight: bold;
-}
-
 .subscribe-box {
   padding: 20px;
   background-color: #f4f5f6;
   margin-top: 10px;
 }
 
-.subscribe-box img {
-  float: left;
-  margin-right: 20px;
-}
-
 .sub-img {
   margin-top: 1.1rem;
   margin-left: -55px;
-}
-
-.subscribe-box a {
-  font-size: 1.3rem;
-  line-height: 35px;
-}
-
-.subscribe-box a:hover {
-  text-decoration-color: #f72210;
-  color: #000;
 }
 
 .subscribe-box small {
@@ -287,11 +287,6 @@ article {
   margin-top: 20px;
 }
 
-.most-read {
-  /* background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center center / cover no-repeat; */
-  width: 55%;
-}
-
 @media screen and (max-width: 768px) {
   .outer-container {
     margin-left: 0;
@@ -301,12 +296,18 @@ article {
   .image {
     width: 100%;
   }
+
   a.sub-btn img {
     display: none;
   }
 
   .link-container {
     font-size: 0.85rem;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: auto;
   }
 
   .editors-pick .card-img-top {
@@ -318,12 +319,6 @@ article {
     width: 100%;
     height: auto;
   }
-
-  .card-img-top {
-    width: 100%;
-    height: auto;
-
-  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -331,6 +326,7 @@ article {
     margin: 0;
     padding: 0;
   }
+
   .date {
     display: none;
   }
