@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+/* .outer-container {
+  padding: 0 5px 0 5px ;
+  margin: 0;
+} */
+
 a {
   text-decoration: none;
   color: #000;
@@ -122,6 +127,55 @@ article {
 
 .opinion-item:not(:last-child) {
   border-bottom: 2px solid #ddd;
+}
+
+.opinion-content a:hover {
+  color: #f72210;
+}
+
+.clearfix span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 0;
+  color: #333;
+  vertical-align: top;
+}
+
+.btn {
+  background: rgb(83, 83, 83);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.newsletter a {
+  font-size: 0.85rem;
+}
+
+.more a {
+  color: #333;
+}
+
+.btn:hover {
+  background: #999;
+}
+
+.more a:hover {
+  text-decoration: #f72210 underline;
+}
+
+.magazine-cta:hover {
+  background: #d9d9d9;
+}
+
+.magazine-cta {
+  width: inherit;
+  text-transform: uppercase;
+  background: #f0efef;
+  color: #000;
+  font-weight: bold;
+  z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
