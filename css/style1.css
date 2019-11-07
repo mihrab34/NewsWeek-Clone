@@ -103,6 +103,31 @@ article {
   margin-bottom: 1rem;
 }
 
+.newsletter a {
+  font-size: 0.85rem;
+}
+
+.more a {
+  color: #333;
+}
+
+.headline {
+  margin-top: 1rem;
+}
+
+.opinion-content a:hover {
+  color: #f72210;
+}
+
+.more a:hover {
+  text-decoration: #f72210 underline;
+}
+
+.headline a:hover {
+  text-decoration: underline #f72210;
+  color: #000;
+}
+
 .culture-travel article .news-article-title a {
   font-weight: 300;
 }
@@ -129,10 +154,6 @@ article {
   border-bottom: 2px solid #ddd;
 }
 
-.opinion-content a:hover {
-  color: #f72210;
-}
-
 .clearfix span {
   text-transform: uppercase;
   font-weight: bold;
@@ -149,24 +170,8 @@ article {
   font-weight: bold;
 }
 
-.newsletter a {
-  font-size: 0.85rem;
-}
-
-.more a {
-  color: #333;
-}
-
 .btn:hover {
   background: #999;
-}
-
-.more a:hover {
-  text-decoration: #f72210 underline;
-}
-
-.magazine-cta:hover {
-  background: #d9d9d9;
 }
 
 .magazine-cta {
@@ -178,7 +183,48 @@ article {
   z-index: 1;
 }
 
+.magazine-cta:hover {
+  background: #d9d9d9;
+}
+
+.label {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.category span:nth-child(1) {
+  background: #f72210;
+  color: #fff;
+  font-weight: bold;
+}
+
+.category span:nth-child(2) {
+  color: #f72210;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscribe span {
+  color: #f72210;
+  text-transform: uppercase;
+}
+
+.subscribe-box {
+  width: 100%;
+  background: #f4f5f6;
+  padding: 1.7rem;
+}
+
 @media screen and (max-width: 768px) {
+  .outer-container {
+    margin: 0;
+  }
+
+  .image {
+    width: 100%;
+  }
   a.sub-btn img {
     display: none;
   }
