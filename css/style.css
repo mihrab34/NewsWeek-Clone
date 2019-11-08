@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+  padding-top: 5.5rem;
+}
+
 .outer-container {
   padding: 0;
   margin: 0;
@@ -26,10 +31,22 @@ a:hover {
   text-decoration: none;
 }
 
+.stories {
+  border-bottom: 1px solid #999;
+  padding-bottom: 1.1rem;
+}
+
+.last-story {
+  border-bottom: none;
+}
+
 .header-top {
   background: #f72210;
   color: white;
   padding: 0.85rem 1% 0.85rem 2%;
+  position: fixed;
+  width: 100vw;
+  top: 0;
 }
 
 .header-top a {
@@ -54,10 +71,6 @@ a.sub-btn {
 
 a.sub-btn img {
   width: 1rem;
-}
-
-.sticky-top {
-  position: sticky;
 }
 
 nav {
@@ -230,7 +243,8 @@ article {
   font-size: 1.2rem;
 }
 
-.subscribe span {
+.subscribe span,
+.most-read {
   text-transform: uppercase;
   color: #f72210;
   font-weight: bold;
@@ -250,13 +264,21 @@ article {
 
 .subscribe,
 .most-read {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .subscribe-box {
   padding: 20px;
   background-color: #f4f5f6;
   margin-top: 10px;
+}
+
+.most-read-box {
+  border: 1px solid #f4f5f6;
+}
+
+.most-read-box img {
+  width: 50%;
 }
 
 .sub-img {
@@ -269,7 +291,21 @@ article {
   font-size: 1.1rem;
 }
 
-.subscribe-box .btn {
+.most-headlines h3 {
+  color: #000;
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+.most-headlines p {
+  color: #000;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.subscribe-box .btn,
+.most-read-box .btn {
   background-color: #f72210;
   font-size: 1rem;
   text-transform: uppercase;
@@ -278,13 +314,61 @@ article {
   border-radius: 0;
 }
 
-.subscribe-box .btn:hover {
+.subscribe-box .btn:hover,
+.most-read-box .btn:hover {
   background-color: #de1f0e;
   color: #fff;
 }
 
-.subscribe-box .btn-container {
+.subscribe-box .btn-container,
+.most-read-box .btn-container {
   margin-top: 20px;
+}
+
+footer {
+  padding: 20px 30px;
+  border-top: 2px solid #f4f5f6;
+}
+
+footer small {
+  vertical-align: bottom;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+}
+
+footer .social {
+  text-align: right;
+}
+
+footer .social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+footer ul:last-child {
+  margin-top: 5px;
+}
+
+footer span {
+  vertical-align: top;
+}
+
+footer nav {
+  display: inline-block;
+}
+
+footer .nav-link {
+  padding: 0 10px;
+  border-right: 1px solid #d9d9d9;
+  color: #666;
+}
+
+footer ul li a {
+  font-size: 0.9rem;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 768px) {
