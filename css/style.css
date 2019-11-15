@@ -392,10 +392,10 @@ footer .nav-link {
   a.sign {
     padding-right: 1.5rem;
     margin-right: -1.6rem;
-    width: 6.0rem;
+    width: 30vw;
   }
 
- .header-top {
+  .header-top {
     width: 100vw;
     margin: 0;
   }
