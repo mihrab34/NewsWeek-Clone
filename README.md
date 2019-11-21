@@ -12,7 +12,7 @@ Akintola Ramota Olajumoke
 
    * HTML  
    * CSS3
-   * BOOSTRAP
+   * BOOTSTRAP
 
 **Live Version**
 
