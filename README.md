@@ -16,7 +16,7 @@ Akintola Ramota Olajumoke
 
 **Live Version**
 
-Check out [Live Version](https://raw.githack.com/Qoosim/smashing-magazine-website/feature-1/index.html) of this project.
+Check out [Live Version](https://raw.githack.com/mihrab34/NewsWeek-Clone/master/index.html) of this project.
 
 **Contributions**
 
